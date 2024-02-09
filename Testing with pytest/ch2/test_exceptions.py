@@ -1,6 +1,7 @@
 import pytest
 import cards
 
+
 def test_no_path_raises():
     with pytest.raises(TypeError):
         cards.CardsDB()
